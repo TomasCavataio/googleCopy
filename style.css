@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.apps{
+    color:grey;
+    padding-top: 1%;
+    cursor: pointer;
+}
+
+.apps:hover{
+    color: black;
+}
+
+body,html{
+    height:100%;
+    overflow-y: hidden;
+}
+
+.header{
+    height: 20%;
+    margin-top: 0.3%;
+}
+
+header{
+    display: flex;
+    float: right;
+    width: 20%;
+}
+
+header a{
+    color: rgba(0,0,0,0.87);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-bottom: 9%;
+}
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.logo{
+    height: 92px;
+    width: 272px;   
+    display: flex;
+    justify-content: center;
+}
+
+.logoBox{
+    margin-bottom: 2%;
+}
+
+.inputBox{
+ width: 125%;
+ margin-bottom: 1%;
+}
+
+.googleInput:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.icon{
+    position: absolute;
+    margin-left: 43.5%;
+    margin-top: 21.6%;
+    color: grey;
+}
+
+input:focus{
+    outline: none;
+}
+
+.googleInput{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 40px;
+    width: 32%;
+    margin: 0 auto;
+    padding-left: 2%;
+}
+
+.buttons{
+    margin-bottom: 2%;
+}
+
+.options{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 69%;
+
+}
+
+.profile{
+    cursor: pointer;
+}
+
+.secondaryButtons{
+    position: relative;
+	height: 34px;
+	margin: 3px;
+	font-weight: bold;
+    color: #5F6368;
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+    padding: 0 15px;
+    font-weight: lighter;
+}
+
+.secondaryButtons:hover{
+    color: black;
+	border: 1px solid #bdbdbd;
+	box-shadow: 0px 0.5px 0px 0px #d3d3d3;
+}
+
+.leftFooter p {
+    padding-top: 0.3%;
+    width: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(0,0,0,.54);
+}
+
+.leftFooter{
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.bottomLeftFooter {
+    display: flex;
+    padding-top: 0.5%;
+    width: 25%;
+    position: absolute;
+    justify-content: space-evenly;
+}
+
+.bottomLeftFooter a{
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.bottomRightFooter a{
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bottomRightFooter{
+    float: right;
+    display: flex;
+    padding-top: 0.5%;
+    width: 15%;
+    justify-content: space-evenly;
+}
