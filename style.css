@@ -72,8 +72,15 @@ footer{
 .icon{
     position: absolute;
     margin-left: 43.5%;
-    margin-top: 21.6%;
+    top: 45%;
     color: grey;
+}
+
+.mic{
+    position: absolute;
+    margin-left: 79%;
+    top: 44%;
+    cursor: pointer;
 }
 
 input:focus{
@@ -125,6 +132,11 @@ input:focus{
     color: black;
 	border: 1px solid #bdbdbd;
 	box-shadow: 0px 0.5px 0px 0px #d3d3d3;
+}
+
+.secondaryButtons:focus{
+    outline: none;
+    border: 1px solid #4d90fe;
 }
 
 .leftFooter p {
